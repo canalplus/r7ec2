@@ -1,0 +1,31 @@
+{
+  "name": "r7ec2",
+  "version": "0.0.1",
+  "description": "Use grunt-ec2 to handle EC2 instances (stop at night, ...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/canalplus/r7ec2.git"
+  },
+  "keywords": [
+    "ec2",
+    "aws",
+    "grunt-ec2",
+    "grunt"
+  ],
+  "author": "Jean-Thierry Bonhomme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canalplus/r7ec2/issues"
+  },
+  "homepage": "https://github.com/canalplus/r7ec2",
+  "dependencies": {
+    "grunt-ec2": "git+ssh://git@github.com/canalplus/grunt-ec2.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
