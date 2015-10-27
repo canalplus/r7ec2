@@ -5,9 +5,9 @@ See [grunt-ec2 reference](https://github.com/canalplus/grunt-ec2/blob/master/REA
 
 # Installation
 
-Create a credential file named <code>r7-crendentiels.json</code> in the root of the directory.
+Create a credential file named <code>r7-credentials.json</code> in the root of the directory.
 
-<code>
+```
 {
   "AWS_DEFAULT_REGION":     "eu-west-1",
   "AWS_ACCESS_KEY_ID":      "TOBECOMPLETED",
@@ -15,12 +15,12 @@ Create a credential file named <code>r7-crendentiels.json</code> in the root of 
   "AWS_SECURITY_GROUP":     "canallabs_sg_ssh",
   "ELASTIC_IP":             false
 }
-</code>
+```
 
 Take care you shall associate a policy with the user you completed the <code>AWS_ACCESS_KEY_ID</code> and <code>AWS_SECURITY_GROUP</code>.
 
 Here is an example of policy:
-<code>
+```
 {
     "Version": "1",
     "Statement": [
@@ -53,4 +53,4 @@ Here is an example of policy:
         }
     ]
 }
-</code>
+```
